@@ -1,0 +1,87 @@
+.nogol .navbar-brand{
+font-weight: 600;
+}
+img{
+    max-width: 100%;
+}
+.navbar-brand span{
+color: rgb(255, 255, 255);
+background: red;
+display: inline-block;
+height: 50px;
+width: 50px;
+font-size: 30px;
+text-align: center;
+ border-radius: 5px;
+}
+.banner-section{
+    background: url(./Employees\ Hero.jpg) no-repeat center center;
+    padding: 160px 0px;
+}
+.navbar-brand{
+  
+}
+.count h1{
+font-size: 70px;
+}
+.count p{
+   font-size: 30px;
+}
+.about-title p{
+font-size: 25px;
+line-height: 40px;
+}
+.about-me{
+    background-image: linear-gradient(skyblue, greenyellow);
+}
+.app-fetur-item{
+    height: 300px;
+}
+.left-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+
+}
+.right-item{
+    width: 60%;
+    padding: 25px;
+   
+}
+.left-item img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -144px;
+
+
+
+}
+.app-fetur-item{
+    box-shadow: 5px 5px 30px 5px skyblue;
+}
+.app-look{}
+.app-look a{
+    position: relative;
+    display: block;
+}
+.app-look a::after{
+    content: "";
+    height:100% ;
+    width:100% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(135, 207, 235, 0.451);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.app-look:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+.about-img img{
+    box-shadow:0 0 5px 10px skyblue;
+}
